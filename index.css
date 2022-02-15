@@ -1,0 +1,109 @@
+* {
+    background-color: #dddddd;
+}
+
+#header-top {
+    display: block;
+}
+
+#nav-bar a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+#nav-bar li {
+    float: right;
+    display: inline;
+}
+
+#header-img {
+    float: left;
+    width: 500px;
+}
+
+
+#body {
+    
+    padding-top: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#head-title {
+    margin: 30px; 
+    font-size: x-large; 
+    font-weight: 900;
+
+}
+ 
+input {
+    margin-bottom: 20px;
+    width: 400px;
+    border: 3px solid #555;
+}
+#get-started {
+    color: brown;
+    background-color: aqua;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+#premium, #fast, #quality {
+    padding-left: 420px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+#premium,#fast, #quality, h1 {
+    font-size: xx-large;
+}
+#premium, #fast, #quality, p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+#how-it-works{
+    padding-top: 20px;
+
+}
+
+.float-container {
+    width: 100%;
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child {
+    width: 30%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
+.button {
+    color: rgb(54, 179, 43);
+    background-color: rgb(248, 20, 3);
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.head {
+    background-color: grey;
+    font-size: x-large;
+}
+.cost {
+    background-color: rgb(220, 216, 216);
+    font-size: large;
+}
+
+#footer {
+    display: block;
+}
+#nav-footer li {
+    float: right;
+    padding: 8px;
+    display: inline;
+}
+
+#copyright {
+    float: left;
+}
